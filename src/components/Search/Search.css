@@ -1,0 +1,39 @@
+form {
+  display: inline-block;
+  margin: 24px 8px 24px 8px;
+}
+input {
+  font-family: 'Roboto', sans-serif;
+  height: 30px;
+  width: 300px;
+  font-size: 1.4em;
+}
+input::placeholder {
+  margin: 2px 4px;
+}
+button {
+  margin-top: -8px;
+  height: 40px;
+  line-height: 40px;
+  background: #03a9f4;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .8px;
+  padding: 0 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  user-select: none;
+  border-radius: 2px;
+  transition: all .3s ease-out;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.225);
+}
+button:hover {
+  cursor: pointer;
+}
