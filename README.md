@@ -14,3 +14,5 @@
 - [x] The API will return a list of albums based on the search result. Find out what the iTunes API data structure looks like and extract the relevant data from it.
 
 - [x] Clean UI
+
+- [x] When album image or title is clicked, a tab opens to a link where the user can preview and purchase the album on iTunes.
