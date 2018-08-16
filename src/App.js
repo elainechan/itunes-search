@@ -9,7 +9,8 @@ export default class App extends React.Component {
     super(props)
     this.state = {
       albums: []
-    }
+    };
+    this.callAPI = this.callAPI.bind(this);
   }
 
   callAPI(searchText) {
@@ -26,12 +27,11 @@ export default class App extends React.Component {
     // this.setState() - on completion of fetch, take entire object and set it into the state
   }
 
-
   render() {
     return (
       <div className="App">
       <Header />
-      <Search onSearch={this.callAPI.bind(this)} />
+      <Search onSearch={this.callAPI} />
       <Albums albumsProp={this.state.albums} />
       </div>
     );
